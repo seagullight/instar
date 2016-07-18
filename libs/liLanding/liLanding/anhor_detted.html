@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>liLanding</title>
+
+<link rel="stylesheet" href="css/liLanding.css">
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/jquery.liLanding.js"></script>
+<script>
+$(window).load(function(){
+	$('.landingNav2').liLanding();
+})
+</script>
+<style>
+section { display:block;
+			width:100%;
+			height:100vh;
+			position:relative}
+section:nth-child(2n-1) { background-color:#999999;
+							z-index:1}			
+</style> 
+</head>
+<body>
+
+
+        <nav class="landingNav2 landingDotted">
+            <ul>
+                <li><a href="#main_head">landing link 1</a></li>
+                <li><a href="#inform">landing link 2</a></li>
+                <li><a href="#galery">landing link 3</a></li>
+                <li><a href="#contacts">landing link 4</a></li>
+                <li><a href="#riba">landing link 5</a></li>
+                <li><a href="#foot">landing link 5</a></li>
+            </ul>
+        </nav>
+<section id="main_head" class="landingItem"></section>
+<section id="inform" class="landingItem"></section>
+<section  id="galery" class="landingItem"></section>
+<section id="contacts" class="landingItem"></section>
+<section id="riba" class="landingItem"></section>  
+<section id="foot" class="landingItem"></section>   
+</body>
+</html>

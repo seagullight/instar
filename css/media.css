@@ -1,0 +1,112 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 640px) {
+div.container {width: 100%;}
+section#navigation {height: 100% ;}
+.afternav {width: 100%; height: 100%;}
+section#navigation div.logoblock {width: 100%; height: 100%;}
+section#navigation div.afternav {height: 100%; background: none;}
+section#navigation div.logoblock p {width: 100%;}
+.serch {display: none;}
+section#news ul.first {display: none;}
+section#news div.news{left: 5px; width: 100%;}
+section#news div.news ul li:first-child{text-align: center;}
+section#news div.sdvig, div.sdvig2 {display: none;}
+
+section#decision { height: 330vh; }
+section#decision .col-md-2
+		{margin-left: 0}
+section#decision	.col-md-2:not(:first-child)
+		{margin-left: 0}
+section#decision	figure {margin-bottom: 50px;} 	
+section#decision	figcaption {margin-bottom: 1px; text-align: center; height: 25px; width: 350px;}
+section#decision img 	{width: 630px; height: 150px;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+section#decision { height: 380vh; }
+section#decision .col-md-2
+		{margin-left: 0}
+section#decision	.col-md-2:not(:first-child)
+		{margin-left: 0}
+section#decision	figure {margin-bottom: 50px;} 	
+section#decision	figcaption {margin-bottom: 5px; height: 25px; width: 400px;}
+section#decision img 	{width: 470px; height: 150px;}
+						
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+div.container {width: 100%;}
+section#navigation {height: 100% ;}
+.afternav {width: 100%; height: 100%;}
+section#navigation div.logoblock {width: 100%; height: 100%;}
+section#navigation div.afternav {height: 100%; background: none;}
+section#navigation div.logoblock p {width: 100%;}
+.serch {display: none;}
+section#news ul.first {display: none;}
+section#news div.news{left: 0;}
+section#news div.news ul li:first-child{text-align: center;}
+section#news div.sdvig, div.sdvig2 {display: none;}
+section#decision { height: 180vh; }
+section#decision .col-md-2
+		{margin-left: 0}
+section#decision	.col-md-2:not(:first-child)
+		{margin-left: 0}
+section#decision	figure {margin-bottom: 50px;} 	
+section#decision	figcaption {margin-bottom: 1px; height: 25px; width: 350px;}
+section#decision img 	{width: 350px; height: 150px;}	
+		
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	section#decision { height: 240vh; }
+section#decision .col-md-2
+		{margin-left: 0}
+section#decision	.col-md-2:not(:first-child)
+		{margin-left: 0}
+section#decision	figure {margin-bottom: 50px;} 	
+section#decision	figcaption {margin-bottom: 5px; height: 25px; width: 310px;}
+section#decision img 	{width: 310px; height: 150px;}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

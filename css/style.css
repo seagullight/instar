@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background-color: white; }
+
+div.container {
+  max-width: 1000px;
+  width: 1000px;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #0f71b3; }
+
+.container-fluid {
+  padding-left: 15px;
+  padding-bottom: 1px;
+  padding-top: 0; }
+
+section#navigation {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%; }
+  section#navigation .afternav {
+    position: relative;
+    top: -20px;
+    height: 100%;
+    background: url(../img/rightimg.png) no-repeat right top; }
+  section#navigation .logoblock {
+    position: relative;
+    display: block;
+    width: 1000px;
+    height: 400px;
+    color: white;
+    background: url(../img/bgLeft.png) no-repeat;
+    background-size: cover; }
+    section#navigation .logoblock p:first-child {
+      padding-top: 5%; }
+    section#navigation .logoblock h1 {
+      font-size: 20pt;
+      margin-left: 1%; }
+    section#navigation .logoblock p {
+      display: block;
+      width: 40%;
+      font-size: 9pt;
+      margin-left: 1%; }
+  section#navigation .slider {
+    position: relative;
+    display: block;
+    width: 1000px;
+    height: 100%; }
+
+nav.navbar {
+  background-color: transparent;
+  background: url(../img/bgLeft.png) no-repeat left top;
+  color: white;
+  border-radius: 0;
+  border-bottom: 1px solid #cccccc;
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
+.navbar-inverse {
+  padding: 0; }
+  .navbar-inverse ul.dropdown-menu {
+    background-color: #cfe1ed; }
+    .navbar-inverse ul.dropdown-menu li a {
+      color: #005b95; }
+    .navbar-inverse ul.dropdown-menu li:hover a {
+      color: white; }
+  .navbar-inverse .navbar-nav > li:last-child a {
+    color: #b2b2b2; }
+  .navbar-inverse .navbar-nav li a {
+    color: white;
+    font-size: 10pt; }
+  .navbar-inverse .serch {
+    position: relative;
+    top: 15px;
+    left: 50px;
+    width: 15%;
+    height: 3vh; }
+  .navbar-inverse li.lang {
+    margin-left: 40px; }
+
+section#news {
+  position: relative;
+  top: -20px;
+  background-color: white;
+  padding-top: 3%; }
+  section#news div.sdvig ul {
+    position: relative;
+    display: block;
+    left: -50px; }
+  section#news div.sdvig2 ul {
+    position: relative;
+    display: block;
+    left: -100px; }
+  section#news .news {
+    display: block;
+    position: relative;
+    left: -120px;
+    width: 350px;
+    height: auto; }
+  section#news span {
+    float: left;
+    height: 35px;
+    padding-right: 5%; }
+  section#news ul {
+    padding: 0; }
+  section#news ul li {
+    list-style-type: none;
+    margin-bottom: 2%;
+    word-wrap: break-word; }
+    section#news ul li a {
+      font-size: 9pt;
+      text-decoration: underline;
+      color: #005b95; }
+  section#news ul li:first-child {
+    font-size: 12pt;
+    font-weight: 600;
+    margin-bottom: 5%;
+    color: #6a6a6a; }
+
+section#decision {
+  position: relative;
+  top: -20px;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 350px; }
+  section#decision .col-md-2:not(:first-child) {
+    margin-left: 35px; }
+  section#decision figure {
+    display: block;
+    width: 200px; }
+  section#decision figcaption {
+    width: 165px;
+    height: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #005b95; }
+
+footer {
+  position: relative;
+  height: 150px;
+  background-color: white;
+  margin-top: -10px;
+  padding-top: 50px;
+  padding-bottom: 5%; }
+  footer p {
+    font-size: 11px; }
+  footer a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: underline; }
+  footer img {
+    margin-left: 30px;
+    width: 32px; }
+
+/*# sourceMappingURL=style.css.map */
